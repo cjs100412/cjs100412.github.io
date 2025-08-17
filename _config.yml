@@ -7,156 +7,163 @@ version: 2
 
 # Personal info
 name: 최진녕
-title: 정보통신공학 전공자
-email: cjs100412@gmail.com
-phone: 010-8514-7241
-website: https://cjs100412.github.io
+title: 정보통신공학 전공 | IT 보안 분야
+email: your.email@gmail.com
+phone: 010-XXXX-XXXX
+website: cjs100412.github.io
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-github_username: cjs100412
-# instagram_username: 
-linkedin_username:
-# xing_username: 
-# pinterest_username: 
-# youtube_username: 
-# googleplus_username: 
-# orcid_username: 
-
-# Additional icon links
-# additional_links:
-# - title: Link name
-#   icon: Font Awesome brand icon name
-#   url: Link url
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
+github_username:  cjs100412
+# linkedin_username: your-linkedin
+# instagram_username: your-instagram
 
 # About Section
 about_title: About Me
-about_profile_image: images/profile.jpg  # 프로필 사진 경로
-about_content: | # this will include new lines to allow paragraphs
-  안녕하세요, 정보통신공학을 전공한 **최진녕**입니다.
+about_profile_image: images/profile.jpg
+about_content: | 
+  안녕하세요! 정보통신공학을 전공한 <mark>최진녕</mark>입니다.
   
   저의 가장 큰 장점은 **16년간의 학창생활 동안 단 한번의 지각/결석도 하지 않은 성실함**입니다. 
-  옳고 그름에 대한 판단력과 정직함, 그리고 약속을 지키는 성격은 귀사에서도 큰 도움이 될 것입니다.
+  4차 산업혁명 시대의 IT 기술에 깊은 관심을 가지고 있으며, 특히 **보안인증**과 **시스템 개발** 분야에 열정을 가지고 있습니다.
   
-  4차 산업혁명 시대에 IT분야에 관심을 갖게 되어 정보통신공학을 전공했으며, 웹 프로그래밍, 임베디드 시스템, 
-  사물인터넷, 모바일 프로그래밍 등 다양한 분야의 지식을 즐겁게 학습했습니다.
-  
-  센스톤에서 인턴으로 근무하며 OTAC(One Time Authentication Code) 기술을 비즈니스에 접목하는 
-  업무를 수행했고, IT 보안인증에 대한 실무적 이해를 쌓을 수 있었습니다.
+  센스톤에서 인턴으로 근무하며 **OTAC(One Time Authentication Code)** 기술을 비즈니스에 접목하는 
+  실무 경험을 쌓았고, 이를 통해 IT 보안인증에 대한 깊은 이해를 얻었습니다.
 
 content:
-  # Experience Section
-  - title: Experience
-    layout: list
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
     content:
       - layout: left
         title: 주식회사 센스톤
-        link: # 회사 웹사이트 링크 (있다면)
+        link: 
+        link_text: 
         sub_title: 사업기획팀 인턴
-        caption: 2022.09 - 2022.12
+        caption: 2022년 9월 - 2022년 12월
         quote: >
-          보안인증 전문 기업
-        description: | # this will include new lines to allow paragraphs
+          보안인증 전문 기업에서의 실무 경험
+        description: | 
           **주요 업무**
           - 사업기획 업무 보조 및 시장조사
-          - 제안서 작성 지원
+          - 제안서 작성 지원 
           - 인증을 통한 내부통제 및 Access Management
           
-          **프로젝트**
+          **주요 프로젝트**
           
-          **케이뱅크 (2022.10)**
+          🏦 **케이뱅크 제안** (2022.10)
           - 제안서 1장(일반부문) 및 4장(지원부문) 작성
           - 서비스 흐름도, 구성도, 시퀀스 다이어그램 제작
           
-          **이솝소프트 도면관리시스템 QR로그인 (2022.10)**
+          📱 **이솝소프트 도면관리시스템 QR로그인** (2022.10)
           - QR로그인 스토리보드 초안 제작
+          - UI/UX 설계 참여
           
-          **LS일렉트릭 PLC 보안인증 제안 (2022.11)**
+          ⚡ **LS일렉트릭 PLC 보안인증 제안** (2022.11)
           - PLC(Programmable Logic Controller) 관련 자료조사
           - 제안서 시각 자료(그림, 표) 제작 및 삽입
           
-          **기타 업무 (2022.11 - 2022.12)**
+          📋 **기타 업무** (2022.11 - 2022.12)
           - 기업 내부통제 기획서 작성
           - 대학인증통제를 위한 OTAC 적용 기획서 작성
           - 인증방식(ID/PW, Token, OTP, OTAC, PKI) 비교자료 작성 (Prezi 활용)
 
-  # Education Section
   - title: Education
     layout: list
     content:
       - layout: left
         title: 배재대학교
-        caption: 2017.03 - 2023.02
+        caption: 2017년 3월 - 2023년 2월
         sub_title: 정보통신공학과 학사
         quote: >
-          IT 환경 이해와 전문 지식 함양
-        description: | # this will include new lines to allow paragraphs
-          - 웹 프로그래밍, 임베디드 시스템, 사물인터넷, 모바일 프로그래밍 등 학습
+          IT 전문 지식과 실무 역량 함양
+        description: |
+          - **주요 이수 과목**: 웹 프로그래밍, 임베디드 시스템, 사물인터넷, 모바일 프로그래밍
+          - **특별 활동**: 아이디어 해커톤 참가 (2021.11)
           - 다양한 IT 분야의 기초 소양 함양
           
       - layout: left
         title: 숭실고등학교
-        caption: 2014.03 - 2017.02
+        caption: 2014년 3월 - 2017년 2월
         sub_title: 졸업
         description: |
-          - 성실한 학교생활
+          - 성실한 학교생활 (무결석, 무지각)
 
-  # Projects Section
   - title: Projects
     layout: list
     content:
       - layout: top-middle
         title: 아이디어 해커톤
-        link: # 프로젝트 링크 (있다면)
-        # link_text: Project Website
+        link: 
         additional_links:
-          # - title: GitHub 링크
-          #   icon: fab fa-github
-          #   url: github.com/...
         quote: >
-          2021.11
-        description: | # this will include new lines to allow paragraphs
-          대학교 아이디어 해커톤 참가
+          창의적 문제 해결 능력 개발
+        description: |
+          - **기간**: 2021년 11월
+          - **내용**: 대학교 아이디어 해커톤 참가
+          - **성과**: 팀워크 및 프레젠테이션 능력 향상
 
-  # Skills Section
-  - title: Skills & Certifications
+  - title: Skills
+    layout: list
+    content:
+      - layout: left
+        title: Technical Skills
+        description: |
+          **Programming & Development**
+          - 웹 프로그래밍 (HTML, CSS, JavaScript)
+          - 모바일 프로그래밍
+          - 임베디드 시스템
+          - 사물인터넷(IoT)
+          
+          **Security & Authentication**  
+          - IT 보안인증 이해
+          - OTAC(One Time Authentication Code) 기술
+          - 인증 방식 분석 (ID/PW, Token, OTP, PKI)
+          
+          **Tools & Others**
+          - Prezi (프레젠테이션)
+          - 문서 작성 도구 (MS Office, 한글)
+          - 제안서 및 기획서 작성
+
+  - title: Certifications & Languages
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      **기술 스택**
-      - **Programming**: 웹 프로그래밍, 모바일 프로그래밍
-      - **Systems**: 임베디드 시스템, 사물인터넷(IoT)
-      - **Security**: IT 보안인증, OTAC 기술 이해
-      - **Tools**: Prezi, 문서 작성 도구
-      
+    content: |
       **자격증**
-      - JLPT 2급
+      - 🎌 **JLPT 2급** - 일본어능력시험
       
-      **병역사항**
-      - 2019.01 - 2020.11 사회복무요원 소집해제
+      **언어 능력**
+      - **한국어**: Native
+      - **일본어**: Intermediate (JLPT N2)
+      - **영어**: Basic
 
-  # Additional Information
+  - title: Military Service
+    layout: text
+    content: |
+      **사회복무요원** (2019.01 - 2020.11)
+      - 소집해제 완료
+      - 성실한 복무로 무사고 만기 전역
+
   - title: A Little More About Me
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      빠르게 변화하는 IT 업계에서 새로운 것에 적응하며 즐겁게 일하고 싶습니다.
+    content: |
+      저는 **"성실함"**과 **"정직함"**을 가장 중요한 가치로 생각합니다.
       
-      끊임없이 노력하는 자세로 맡은 바 일을 성실하게 수행하고, 
-      적극적이고 활발한 성격으로 동료들과 원만한 관계를 형성하겠습니다.
+      빠르게 변화하는 IT 업계에서 새로운 기술을 배우고 적응하는 것을 즐기며,
+      팀원들과의 협업을 통해 함께 성장하는 것을 추구합니다.
       
-      꾸준한 노력과 끈기로 모두에게 인정받고 의지할 수 있는 구성원이 되어 
-      회사의 성장에 기여하겠습니다.
+      **목표**
+      - 단기: IT 보안 분야의 전문성 확보
+      - 장기: 신뢰받는 기술 리더로 성장
+      
+      **관심 분야**
+      - 🔐 사이버 보안
+      - ☁️ 클라우드 컴퓨팅
+      - 🤖 인공지능
+      - 📱 모바일 개발
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
@@ -167,3 +174,15 @@ sass:
 
 plugins:
  - jekyll-seo-tag
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - lib/
+  - scripts/
+  - docker-compose.yml
