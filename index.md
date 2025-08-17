@@ -6,15 +6,15 @@ title: 최진녕's CV
 정보통신공학 전공, IT 보안인증 분야 관심
 
 <div id="webaddress">
-<a href="your.email@gmail.com">your.email@gmail.com</a>
+<a href="cjs100412@gmail.com">cjs100412@gmail.com</a>
 | <a href="https://github.com/cjs100412">GitHub</a>
-| 010-XXXX-XXXX
+| 010-8514-7241
 </div>
 
 
 ## Currently
 
-IT 보안인증 및 시스템 개발 분야 구직 중
+클라이언트 게임 개발 분야 구직 중
 
 
 ### Specialized in
