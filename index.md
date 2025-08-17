@@ -1,91 +1,120 @@
 ---
 layout: cv
-title: Isaac Newtons's CV
+title: 최진녕's CV
 ---
-# Isaac Newton
-Physicist, Mathematician, Cambridge professor.
+# 최진녕
+정보통신공학 전공
 
 <div id="webaddress">
-<a href="isaac@applesdofall.org">isaac@applesdofall.org</a>
-| <a href="http://en.wikipedia.org/wiki/Isaac_Newton">My wikipedia page</a>
+<a href="cjs100412@gmail.com">cjs100412@gmail.com</a>
+| <a href="https://github.com/cjs100412">GitHub</a>
+| 010-8514-7241
 </div>
 
 
 ## Currently
 
-Standing on the shoulders of giants
+게임 클라이언트 개발 분야 구직 중
+
 
 ### Specialized in
 
-Laws of motion, gravitation, minting coins, disliking [Robert Hooke](http://en.wikipedia.org/wiki/Robert_Hooke)
+IT 보안인증, OTAC(One Time Authentication Code), 사업기획, 제안서 작성
 
 
-### Research interests
+### Interests
 
-Cooling, power series, optics, alchemy, planetary motions, apples.
+웹 프로그래밍, 임베디드 시스템, 사물인터넷(IoT), 모바일 프로그래밍, 4차 산업혁명 기술
 
 
 ## Education
 
-`1654-1660`
-__The King's School, Grantham.__
+`2014-2017`
+**숭실고등학교**
 
-`June 1661 - now`
-__Trinity College, Cambridge__
-
-- Sizar
-
-`1667 - death`
-__Trinity College, Cambridge__
-
-- Fellow
+`2017-2023`
+**배재대학교**
+- 정보통신공학과 학사 졸업
+- 웹 프로그래밍, 임베디드 시스템, 사물인터넷, 모바일 프로그래밍 등 이수
 
 
+## Experience
 
-## Awards
-
-`2012`
-President, *Royal Society*, London, UK
-
-Associate, *French Academy of Science*, Paris, France
-
-
-
-## Publications
-
-<!-- A list is also available [online](http://scholar.google.co.uk/citations?user=LTOTl0YAAAAJ) -->
-
-### Journals
-
-`1669`
-Newton Sir I, De analysi per æquationes numero terminorum infinitas. 
-
-`1669`
-Lectiones opticæ.
-
-etc. etc. etc.
-
-### Patents
-
-`2012`
-Infinitesimal calculus for solutions to physics problems, [SMBC](http://www.techdirt.com/articles/20121011/09312820678/if-patents-had-been-around-time-newton.shtml) patent 001
+`2022.09-2022.12`
+**주식회사 센스톤**, 서울
+- 사업기획팀 인턴
+- 사업기획 업무 보조 및 시장조사
+- 제안서 작성 지원
+- 인증을 통한 내부통제 및 Access Management
 
 
-## Occupation
+## Projects
 
-`1600`
-__Royal Mint__, London
+### 케이뱅크 제안
+`2022.10`
+제안서 1장(일반부문) 및 4장(지원부문) 작성, 서비스 흐름도 및 시퀀스 다이어그램 제작
 
-- Warden
-- Minted coins
+### 이솝소프트 도면관리시스템
+`2022.10`
+QR로그인 스토리보드 초안 제작
 
-`1600`
-__Lucasian professor of Mathematics__, Cambridge University
+### LS일렉트릭 PLC 보안인증
+`2022.11`
+PLC(Programmable Logic Controller) 관련 자료조사 및 제안서 시각 자료 제작
 
+### 기업 내부통제 기획
+`2022.11-2022.12`
+- 기업 내부통제 기획서 작성
+- 대학인증통제를 위한 OTAC 적용 기획서 작성
+- 인증방식(ID/PW, Token, OTP, OTAC, PKI) 비교자료 작성 (Prezi 활용)
+
+
+## Academic Activities
+
+`2021.11`
+**아이디어 해커톤**, 배재대학교
+- 학내 아이디어 해커톤 참가
+
+
+## Skills
+
+### Technical
+- **Programming**: 웹 프로그래밍, 모바일 프로그래밍
+- **Systems**: 임베디드 시스템, 사물인터넷(IoT)
+- **Security**: IT 보안인증, OTAC 기술
+
+### Tools
+- Prezi, 문서 작성 도구, 제안서 작성
+
+### Languages
+- 한국어 (Native)
+- 일본어 (JLPT 2급)
+
+
+## Certifications
+
+`취득`
+**JLPT 2급**
+- 일본어능력시험 2급 보유
+
+
+## Military Service
+
+`2019.01-2020.11`
+**사회복무요원**
+- 소집해제 완료
+
+
+## About Me
+
+16년간의 학창생활 동안 단 한번의 지각/결석도 하지 않은 성실함이 저의 가장 큰 장점입니다. 
+4차 산업혁명 시대의 IT 기술 변화에 관심을 갖고 정보통신공학을 전공했으며, 
+센스톤에서의 인턴 경험을 통해 IT 보안인증 분야의 실무 지식을 쌓았습니다.
+
+빠르게 변화하는 IT 업계에서 새로운 것에 적응하며 즐겁게 일하고, 
+끊임없이 노력하는 자세로 회사의 성장에 기여하는 구성원이 되고자 합니다.
 
 
 <!-- ### Footer
 
-Last updated: May 2013 -->
-
-
+Last updated: August 2025 -->
