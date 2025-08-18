@@ -17,16 +17,6 @@ title: 최진녕's CV
 클라이언트 게임 개발 분야 구직 중
 
 
-### Specialized in
-
-IT 보안인증, OTAC(One Time Authentication Code), 사업기획, 제안서 작성
-
-
-### Interests
-
-웹 프로그래밍, 임베디드 시스템, 사물인터넷(IoT), 모바일 프로그래밍, 4차 산업혁명 기술
-
-
 ## Education
 
 `2014-2017`
@@ -79,9 +69,7 @@ PLC(Programmable Logic Controller) 관련 자료조사 및 제안서 시각 자�
 ## Skills
 
 ### Technical
-- **Programming**: 웹 프로그래밍, 모바일 프로그래밍
-- **Systems**: 임베디드 시스템, 사물인터넷(IoT)
-- **Security**: IT 보안인증, OTAC 기술
+- **Programming**: Unity, C#, JavaScript, HTML, css
 
 ### Tools
 - Prezi, 문서 작성 도구, 제안서 작성
