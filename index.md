@@ -43,7 +43,7 @@ QR로그인 스토리보드 초안 제작
 PLC(Programmable Logic Controller) 관련 자료조사 및 제안서 시각 자료 제작
 - ### 기업 내부통제 기획
 `2022.11-2022.12`
-- 기업 내부통제 기획서 작성
+기업 내부통제 기획서 작성
 
 
 ## Academic Activities
