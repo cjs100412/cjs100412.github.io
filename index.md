@@ -13,12 +13,10 @@ title: 최진녕's CV
 
 
 ## Currently
-
 클라이언트 게임 개발 분야 구직 중
 
 
 ## Education
-
 `2014-2017`
 **숭실고등학교**
 
@@ -29,7 +27,6 @@ title: 최진녕's CV
 
 
 ## Experience
-
 `2024.01-2024.12`
 **일본 워킹홀리데이**, 도쿄
 
@@ -50,7 +47,6 @@ PLC(Programmable Logic Controller) 관련 자료조사 및 제안서 시각 자�
 
 
 ## Academic Activities
-
 `2021.11`
 **아이디어 해커톤**, 배재대학교
 - 학내 아이디어 해커톤 참가
@@ -58,15 +54,12 @@ PLC(Programmable Logic Controller) 관련 자료조사 및 제안서 시각 자�
 
 
 ## Skills
-
 ### Technical
 - **Programming**
 - 上 : Unity, C#
 - 中 : JavaScript, HTML, css
 - 下 : C++, Java
 
-### Tools
-- Prezi, 문서 작성 도구, 제안서 작성
 
 ### Languages
 - 한국어 (Native)
@@ -74,21 +67,18 @@ PLC(Programmable Logic Controller) 관련 자료조사 및 제안서 시각 자�
 
 
 ## Certifications
-
 `취득`
 **JLPT 1급**
 - 일본어능력시험 1급 보유
 
 
 ## Military Service
-
 `2019.01-2020.11`
 **사회복무요원**
 - 소집해제 완료
 
 
 ## About Me
-
 16년간의 학창생활 동안 단 한번의 지각/결석도 하지 않은 성실함이 저의 가장 큰 장점입니다. 
 4차 산업혁명 시대의 IT 기술 변화에 관심을 갖고 정보통신공학을 전공했으며, 
 센스톤에서의 인턴 경험을 통해 IT 보안인증 분야의 실무 지식을 쌓았습니다.
