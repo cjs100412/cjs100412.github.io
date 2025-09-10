@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="ko" prefix="og: https://ogp.me/ns#">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>최진녕 · 게임 클라이언트/네트워크</title>
+  <meta name="description" content="Unity 6 · Netcode · UGS Multiplay · Dedicated Server · ASP.NET · MySQL" />
+  <meta property="og:title" content="최진녕 · 게임 클라이언트/네트워크" />
+  <meta property="og:description" content="Unity 6 · Netcode · UGS Multiplay · Dedicated Server · ASP.NET · MySQL" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://cjs100412.github.io/" />
+  <meta name="format-detection" content="telephone=no" />
+  <style>
+    :root{
+      --bg: #0b0c0f;        /* dark background */
+      --panel: #11131a;     /* cards */
+      --text: #e6e6e6;
+      --muted: #9aa0a6;
+      --primary: #7c9eff;   /* accent */
+      --chip: #1f2430;
+      --link: #9bb6ff;
+      --ok: #6ee7b7;
+      --warn: #facc15;
+      --danger: #fb7185;
+      --border: #2b2f3a;
+      --shadow: 0 10px 30px rgba(0,0,0,.35);
+    }
+    @media (prefers-color-scheme: light){
+      :root{
+        --bg:#f7f7fb;--panel:#ffffff;--text:#101317;--muted:#5b616e;--primary:#2f5aff;--chip:#eef2ff;--link:#2446ff;--border:#e8eaf2;--shadow:0 8px 24px rgba(0,0,0,.08)
+      }
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{margin:0;background:radial-gradient(1200px 800px at 10% -10%, rgba(124,158,255,.15), transparent 60%), radial-gradient(1200px 900px at 110% 20%, rgba(124,158,255,.12), transparent 60%), var(--bg); color:var(--text); font: 16px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,Inter,"Apple SD Gothic Neo","Noto Sans KR","Malgun Gothic",sans-serif}
+    a{color:var(--link); text-decoration:none}
+    a:hover{text-decoration:underline}
+    .wrap{max-width:1100px; margin:40px auto; padding:0 20px;}
+    header{display:grid; grid-template-columns: 180px 1fr; gap:24px; align-items:center;}
+    .avatar{width:160px;height:160px;border-radius:24px; background:var(--panel); box-shadow:var(--shadow); display:flex;align-items:center;justify-content:center; font-weight:700; color:var(--primary)}
+    .title h1{margin:0; font-size:32px; letter-spacing:-0.3px}
+    .title .role{margin-top:6px; color:var(--muted)}
+    .meta{display:flex; flex-wrap:wrap; gap:10px; margin-top:12px}
+    .meta a,.meta span{display:inline-flex; align-items:center; gap:8px; padding:8px 12px; background:var(--chip); color:var(--text); border-radius:999px; border:1px solid var(--border)}
+    .grid{display:grid; grid-template-columns: 320px 1fr; gap:24px; margin-top:28px}
+    aside,.main > section{background:var(--panel); border:1px solid var(--border); border-radius:20px; box-shadow:var(--shadow)}
+    aside{padding:20px; position:sticky; top:24px; height:fit-content}
+    .main{display:grid; gap:24px}
+    section{padding:24px}
+    h2{margin:0 0 12px 0; font-size:20px; letter-spacing:.2px}
+    .chips{display:flex; flex-wrap:wrap; gap:8px}
+    .chip{padding:8px 12px; background:var(--chip); border:1px solid var(--border); border-radius:999px;}
+    .list{display:flex; flex-direction:column; gap:16px}
+    .item{padding:14px 16px; border:1px dashed var(--border); border-radius:14px}
+    .item .when{font-variant-numeric: tabular-nums; color:var(--muted)}
+    .item h3{margin:2px 0 2px; font-size:16px}
+    .item .sub{color:var(--muted)}
+    .timeline{position:relative; margin-left:6px}
+    .timeline::before{content:""; position:absolute; left:10px; top:0; bottom:0; width:2px; background:linear-gradient(var(--primary), transparent)}
+    .dot{position:absolute; left:2px; width:16px; height:16px; border-radius:50%; background:var(--primary); box-shadow:0 0 0 4px rgba(124,158,255,.15)}
+    .tl{position:relative; padding-left:36px; margin-bottom:18px}
+    .tl .when{color:var(--muted)}
+    footer{color:var(--muted); text-align:center; padding:28px 0}
+    /* print */
+    @media print{
+      body{background:#fff}
+      .wrap{margin:0}
+      header,.grid,section,aside{box-shadow:none}
+      a{text-decoration:none}
+    }
+    /* small */
+    @media (max-width: 900px){
+      header{grid-template-columns: 1fr;}
+      .avatar{width:120px;height:120px}
+      .grid{grid-template-columns: 1fr}
+      aside{position:static}
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap" itemscope itemtype="https://schema.org/Person">
+    <header>
+      <div class="avatar" aria-hidden="true">CJ</div>
+      <div class="title">
+        <h1 itemprop="name">최진녕</h1>
+        <div class="role">게임 클라이언트/네트워크 · Unity 6 · Netcode · UGS Multiplay</div>
+        <div class="meta">
+          <a href="mailto:cjs100412@gmail.com" itemprop="email">cjs100412@gmail.com</a>
+          <a href="https://github.com/cjs100412" itemprop="url" rel="me">GitHub</a>
+          <span itemprop="telephone">010-8514-7241</span>
+          <a href="https://lopsided-jump-7ce.notion.site/25236949d40e80b380a8d0f55d9093a3" rel="nofollow">Portfolio</a>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <aside>
+        <h2>핵심 기술</h2>
+        <div class="chips" aria-label="Skills">
+          <span class="chip">Unity 6</span>
+          <span class="chip">C#</span>
+          <span class="chip">Netcode for GO</span>
+          <span class="chip">UGS Multiplay</span>
+          <span class="chip">Dedicated Server</span>
+          <span class="chip">Vivox</span>
+          <span class="chip">ASP.NET</span>
+          <span class="chip">gRPC</span>
+          <span class="chip">MySQL (Docker)</span>
+          <span class="chip">Git/GitHub</span>
+        </div>
+        <hr style="border:none;border-top:1px solid var(--border); margin:16px 0" />
+        <h2>언어</h2>
+        <div class="list">
+          <div>한국어 (Native)</div>
+          <div>일본어 (JLPT N1)</div>
+        </div>
+        <hr style="border:none;border-top:1px solid var(--border); margin:16px 0" />
+        <h2>자격/병역</h2>
+        <div class="list">
+          <div>JLPT N1</div>
+          <div>사회복무요원 (2019–2020)</div>
+        </div>
+      </aside>
+
+      <div class="main">
+        <section id="summary">
+          <h2>요약</h2>
+          <p>검증된 기능을 빠르고 안정적으로 붙이는 것을 선호합니다. UGS Multiplay Hosting과 Vivox로 데디케이티드 서버·음성 채팅을 구성하고, ASP.NET + gRPC로 인증/유저데이터 백엔드를 구현했습니다. 팀 단위로 로그·문서화·재현을 중시하며 라이브 운영 품질을 끌어올리는 데 집중합니다.</p>
+        </section>
+
+        <section id="experience" class="timeline">
+          <h2>경험</h2>
+          <div class="tl">
+            <div class="dot" style="top:6px"></div>
+            <div class="when">2024.01 – 2024.12 · 도쿄</div>
+            <h3>일본 워킹홀리데이</h3>
+            <div class="sub">낯선 환경에서의 적응과 커뮤니케이션, 일본어 실무 소통 역량 강화</div>
+          </div>
+          <div class="tl">
+            <div class="dot" style="top:6px"></div>
+            <div class="when">2025 · 팀 프로젝트</div>
+            <h3>VR Hand Simulator (멀티)</h3>
+            <ul>
+              <li>Dedicated Server + Netcode for GO, UGS Multiplay Hosting</li>
+              <li>Vivox 음성 채팅, 로비/매치메이킹, 서버 로그/모니터링</li>
+              <li>ASP.NET + gRPC, MySQL(Docker) 기반 메타게임 백엔드</li>
+            </ul>
+          </div>
+        </section>
+
+        <section id="education">
+          <h2>학력</h2>
+          <div class="item">
+            <div class="when">2017 – 2023</div>
+            <h3>배재대학교 · 정보통신공학</h3>
+            <div class="sub">C#, C++, Java, 웹 프론트엔드 기초</div>
+          </div>
+          <div class="item">
+            <div class="when">2014 – 2017</div>
+            <h3>숭실고등학교</h3>
+          </div>
+        </section>
+
+        <section id="activities">
+          <h2>대외 활동</h2>
+          <div class="item">
+            <div class="when">2021.11</div>
+            <h3>아이디어 해커톤</h3>
+            <div class="sub">노인 낙상 방지 주제 기획·발표</div>
+          </div>
+        </section>
+
+        <section id="about">
+          <h2>About</h2>
+          <p>도전을 즐기며, 멀티플레이 안정화와 라이브 서비스 품질 향상에 기여하고자 합니다. 빠르게 배우고 팀과 호흡 맞추는 것에 강점이 있습니다.</p>
+        </section>
+      </div>
+    </div>
+
+    <footer>
+      © <span id="y"></span> Choi Jinnyeong. 이 페이지는 GitHub Pages에서 호스팅됩니다.
+    </footer>
+  </div>
+  <script>document.getElementById('y').textContent=new Date().getFullYear()</script>
+</body>
+</html>
